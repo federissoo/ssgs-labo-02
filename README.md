@@ -1,30 +1,37 @@
 # Labo-String: CLI per Utilità su Stringhe
 
-Questo progetto fornisce una base per una semplice Command-Line Interface (CLI) Node.js che offre diverse utilità per la manipolazione di stringhe.
+Questo progetto fornisce una Command-Line Interface (CLI) Node.js con diverse utilità per la manipolazione di stringhe.
 
-## Nota Importante per lo Studente - Setup Iniziale del Progetto
+## Funzionalità Principali
 
-Benvenuto/a a `labo-string`!
+Le funzionalità offerte da questa CLI sono le seguenti:
 
-Questo repository è un **template di partenza** per il tuo laboratorio valutato. Come avrai modo di leggere nelle istruzioni del laboratorio, una parte fondamentale del tuo lavoro iniziale (Esercizio 1) consisterà nell'analizzare attentamente la struttura e la configurazione corrente di questo progetto.
+* **Inversione di una stringa**: Inverte l'ordine dei caratteri in una data stringa.
+* **Verifica se una stringa è palindroma**: Controlla se una stringa si legge allo stesso modo al contrario.
+* **Troncamento di una stringa a una lunghezza massima specificata**: Riduce una stringa a una lunghezza massima, aggiungendo eventualmente dei puntini di sospensione.
+* **Conteggio delle occorrenze di ciascun carattere in una stringa**: Restituisce un conteggio di quante volte ogni carattere appare nella stringa.
 
-**Potresti notare che alcuni aspetti della configurazione iniziale – inclusa questa stessa documentazione (`README.md`), il file `package.json` e la gestione dei file da ignorare (`.gitignore`) – sono stati volutamente lasciati incompleti o potrebbero non seguire tutte le best practice per un progetto Node.js.**
+## Installazione
 
-Il tuo primo compito sarà proprio quello di identificare queste aree di miglioramento e apportare le necessarie correzioni e completamenti, come dettagliato nelle istruzioni del laboratorio, per portare il progetto a uno standard qualitativo superiore.
+Per iniziare, assicurati di avere Node.js installato sul tuo sistema.
 
-Buona analisi e buon lavoro!
+1.  **Clona il repository**:
+    ```bash
+    git clone https://github.com/federissoo/ssgs-labo-02.git
+    ```
+2.  **Naviga nella directory del progetto**:
+    ```bash
+    cd labo-string
+    ```
+3.  **Installa le dipendenze**
+    ```bash
+    npm install
+    ```
 
-## Funzionalità Principali (Previste)
+## Utilizzo
 
-* Inversione di una stringa.
-* Verifica se una stringa è palindroma.
-* Troncamento di una stringa a una lunghezza massima specificata.
-* Conteggio delle occorrenze di ciascun carattere in una stringa.
+Per utilizzare le funzionalità della CLI, esegui il file `index.js` con Node.js, fornendo il numero della funzione desiderata e la stringa di input, più eventuali parametri aggiuntivi.
 
-## Installazione e Avvio
-
-*(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
-
----
-
-*Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione.*
+**Sintassi Generale:**
+```bash
+node index.js <numero_funzione> <stringa_input> [parametro_aggiuntivo]

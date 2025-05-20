@@ -17,3 +17,8 @@ dist/
 .coverage
 .pytest_cache/
 htmlcov/
+
+# Node.js
+node_modules/
+coverage/
+.DS_Store

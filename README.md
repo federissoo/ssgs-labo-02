@@ -35,3 +35,14 @@ Per utilizzare le funzionalità della CLI, esegui il file `index.js` con Node.js
 **Sintassi Generale:**
 ```bash
 node index.js <numero_funzione> <stringa_input> [parametro_aggiuntivo]
+```
+
+## Test e Code Coverage
+
+Il progetto è configurato per raggiungere il 100% di code coverage. Per eseguire i test e generare il report di coverage:
+
+```bash
+npm test
+```
+
+Il report di coverage sarà disponibile nella cartella `coverage/` e mostrerà informazioni dettagliate sulle parti di codice testate.
